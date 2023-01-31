@@ -12,7 +12,7 @@ def is_enabled(value, default):
 API_ID = int(os.environ.get("API_ID", "11159699"))
 API_HASH = os.environ.get("API_HASH", "b432bad423ae90d470d906ef26109712")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5902401748:AAEWmSNksb9U0gaj3nxO-ii_zgxC7cBPW0E")
-DROPLINK_API = os.environ.get("DROPLINK_API")
+SHORTURLLINK_API = os.environ.get("b1553f9319dff1e1d492e57508177b6764547869")
 MDISK_API = os.environ.get("MDISK_API", "LSahkCCn5wrD9gV6UREH")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertorBotpro")
